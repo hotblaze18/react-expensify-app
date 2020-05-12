@@ -5,7 +5,7 @@
   "author": "Andrew Mead",
   "license": "MIT",
   "engines": {
-    "node": "12.16.x",
+    "node": "12.8.x",
     "yarn": "1.x"
   },
   "scripts": {
@@ -28,8 +28,6 @@
     "css-loader": "0.28.4",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "3.0.0",
-    "jest": "20.0.4",
-    "live-server": "^1.2.0",
     "moment": "2.18.1",
     "node-sass": "4",
     "normalize.css": "7.0.0",
@@ -45,7 +43,11 @@
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
-    "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack": "3.1.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.5.1",
+    "jest": "20.0.4",
+    "live-server": "^1.2.0"
   }
 }
